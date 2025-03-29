@@ -51,23 +51,34 @@
     };
 
     // Input Listners
-    split_inputs {
+    split_inputs_R {
         #address-cells = <1>;
         #size-cells = <0>;
 
-        glidepoint_split: glidepoint_split@0 {
+        glidepoint_split_R: glidepoint_split_R@0 {
             compatible = "zmk,input-split";
             reg = <0>;
         };
     };
+    split_inputs_L {
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        glidepoint_split_L: glidepoint_split_L@1 {
+            compatible = "zmk,input-split";
+            reg = <1>;
+        };
+    };
+
     glidepoint_listener_R: glidepoint_listener_R {
         compatible = "zmk,input-listener";
         status = "disabled";
+        device = <&glidepoint_split_R>;
     };
     glidepoint_listener_L: glidepoint_listener_L {
         compatible = "zmk,input-listener";
         status = "disabled";
-        device = <&glidepoint_split>;
+        device = <&glidepoint_split_L>;
     };
 };
 
@@ -94,7 +105,6 @@
         status = "okay";
         reg = <1>;
         spi-max-frequency = <1000000>;
-        status = "okay";
         dr-gpios = <&xiao_d 7 (GPIO_ACTIVE_HIGH)>;
 
         sensitivity = "2x";
