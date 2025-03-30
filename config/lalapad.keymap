@@ -180,7 +180,7 @@
 
         DEFAULT_LAYER {
             display-name = "Default";
-            sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
+            sensor-bindings = <&scroll_left_right>, <&scroll_up_down>;
 
             bindings = <
 &kp TAB       &kp Q         &kp W         &kp E            &kp R                       &kp T                     &kp Y                   &kp U          &kp I             &kp O         &kp P             &kp RET
