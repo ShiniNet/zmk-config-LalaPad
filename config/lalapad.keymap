@@ -183,11 +183,11 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_up_down>;
 
             bindings = <
-&kp TAB       &kp Q         &kp W         &kp E            &kp R                       &kp T                     &kp Y                   &kp U          &kp I               &kp O                  &kp P             &kp RET
-&kp LEFT_ALT  &kp A         &kp S         &kp D            &kp F                       &kp G                     &kp H                   &kp J          &kp K               &kp L                  &kp MINUS         &kp LEFT_ALT
-&kp LSHFT     &kp Z         &kp X         &kp C            &kp V                       &kp B                     &kp N                   &kp M          &mt LEFT_ALT COMMA  &mt LEFT_SHIFT PERIOD  &kp LEFT_CONTROL  &kp LEFT_SHIFT
-&kp LCTRL     &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE        &lt SECONDARY_LAYER ESCAPE  &lt TERTIARY_LAYER LANG2  &lt SYSTEM_LAYER LANG1  &kp BACKSPACE  &mt LEFT_GUI RET    &kp LEFT_ALT           &kp LEFT_GUI      &kp LEFT_CONTROL
-                            &allow_end    &allow_pagedown  &allow_home                 &allow_pageup             &allow_pageup           &allow_home    &allow_pagedown     &allow_end
+&kp TAB       &kp Q         &kp W         &kp E            &kp R                       &kp T          &kp Y                   &kp U          &kp I               &kp O                  &kp P             &kp RET
+&kp LEFT_ALT  &kp A         &kp S         &kp D            &kp F                       &kp G          &kp H                   &kp J          &kp K               &kp L                  &kp MINUS         &kp LEFT_ALT
+&kp LSHFT     &kp Z         &kp X         &kp C            &kp V                       &kp B          &kp N                   &kp M          &mt LEFT_ALT COMMA  &mt LEFT_SHIFT PERIOD  &kp LEFT_CONTROL  &kp LEFT_SHIFT
+&kp LCTRL     &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE        &lt SECONDARY_LAYER ESCAPE  &lt 2 LANG2    &lt SYSTEM_LAYER LANG1  &kp BACKSPACE  &mt LEFT_GUI RET    &kp LEFT_ALT           &kp LEFT_GUI      &kp LEFT_CONTROL
+                            &allow_end    &allow_pagedown  &allow_home                 &allow_pageup  &allow_pageup           &allow_home    &allow_pagedown     &allow_end
             >;
         };
 
