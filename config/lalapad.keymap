@@ -220,11 +220,11 @@
             sensor-bindings = <&scroll_down_up>, <&volume_up_down>;
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans       &trans      &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &bootloader  &sys_reset  &sys_reset    &bootloader   &studio_unlock  &bt BT_CLR    &bt BT_CLR_ALL  &trans
-&trans  &trans  &trans  &trans  &trans       &trans      &trans        &trans        &trans          &trans        &trans          &trans
-&trans  &trans  &trans  &trans  &trans       &trans      &trans        &trans        &trans          &trans        &trans          &trans
-                &trans  &trans  &trans       &trans      &trans        &trans        &trans          &trans
+&trans         &kt LS(N7)        &kt LS(N8)        &kt LS(N9)        &trans       &trans      &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4
+&trans         &kt LS(NUMBER_4)  &kt LS(N5)        &kt LS(NUMBER_6)  &bootloader  &sys_reset  &sys_reset    &bootloader   &studio_unlock  &bt BT_CLR    &bt BT_CLR_ALL  &trans
+&kt LS(SLASH)  &kt LS(NUMBER_1)  &kt LS(NUMBER_2)  &kt LS(NUMBER_3)  &kt UNDER    &trans      &trans        &trans        &trans          &trans        &trans          &trans
+&trans         &trans            &trans            &trans            &trans       &trans      &trans        &trans        &trans          &trans        &trans          &trans
+                                 &trans            &trans            &trans       &trans      &trans        &trans        &trans          &trans
             >;
         };
 
