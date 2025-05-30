@@ -203,7 +203,7 @@
             bindings = <
 &kp TILDE  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp PAGE_UP    &kp PRINTSCREEN  &kp KP_SLASH     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
 &trans     &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp HOME       &kp END          &kp KP_ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
-&trans     &kp CAPSLOCK      &trans            &trans            &trans            &trans            &kp PAGE_DOWN  &kp KP_MINUS     &kp KP_PLUS      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&trans     &trans            &trans            &trans            &trans            &trans            &kp PAGE_DOWN  &kp KP_MINUS     &kp KP_PLUS      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
 &trans     &trans            &trans            &trans            &trans            &kp CAPS          &trans         &kp DELETE       &trans           &kp KP_NUMBER_0  &dot_comma       &kp KP_ENTER
                              &trans            &trans            &trans            &trans            &trans         &trans           &trans           &trans
             >;
